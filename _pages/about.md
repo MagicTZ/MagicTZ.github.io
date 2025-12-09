@@ -44,7 +44,7 @@ I value the intersection of academic research and industrial deployment.
 [**Project**](https://github.com/MagicTZ/TVG-SLAM) 
 <!-- <strong><span class='show_paper_citations' data='YOUR_SCHOLAR_ID:PAPER_ID'></span></strong> -->
 - Proposed a tri-view geometric constraint to address the instability of 3D Gaussian Splatting in texture-less or repetitive regions.
-- Achieved tightly-coupled optimization of camera tracking and high-fidelity mapping, ensuring robustness in challenging indoor environments.
+- Achieved tightly-coupled optimization of camera tracking and high-fidelity mapping, ensuring robustness in challenging outdoor environments.
 </div>
 </div>
 
