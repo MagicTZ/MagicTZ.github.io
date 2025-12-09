@@ -17,42 +17,103 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+Hi! I'm **Zhen Tan (谭臻)**. I am currently a Ph.D. candidate at the National University of Defense Technology (NUDT), supervised by <a href='https://ieeexplore.ieee.org/author/37271079500'>Prof. Dewen Hu (CAS Academician)<strong><span id='total_cit'></span></strong></a> and <a href='https://scholar.google.com/citations?user=DvrngV4AAAAJ&hl'>Assoc. Prof. Xieyuanli Chen<strong><span id='total_cit'></span></strong></a>. Prior to this, I obtained my Master's degree from the Technical University of Munich (TUM), guided by <a href='https://scholar.google.com/citations?user=U1xaKegAAAAJ&hl=en'>Prof. Yusheng Xu<strong><span id='total_cit'></span></strong></a>, and my Bachelor's degree from Wuhan University (WHU).
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+My research vision aims to bridge the gap between **High-Fidelity 3D Vision** (NeRF/3DGS) and **Embodied Intelligence**. I focus on building robust **Spatial Representations** and **World Models** that enable robots to understand and interact with dynamic environments.
 
+I value the intersection of academic research and industrial deployment. 
+* **Engineering Foundation**: Before my PhD, I worked as a **Sensor Fusion Engineer** at **LiangDao Intelligence**, leading the development of LiDAR-Camera fusion systems for highway autonomous driving.
+* **Research Collaboration**: Recently, I have maintained close research collaborations with teams at **4DV.ai** and **CVLife**. Together, we explored **Monocular 4D Gaussian Splatting** on mobile devices and optimized **Fast differentiable rendering**, pushing the boundaries of efficient spatial perception.
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2025.12*: &nbsp;🎉🎉 One Paper is accepted to RA-L 2025!
+- *2025.10*: &nbsp;🏆🏆 We won the **Champion** of the **IROS 2025 EvSLAM Challenge**!
+- *2025.06*: &nbsp;🎉🎉 One Paper is accepted to IROS 2025!
+- *2025.01*: &nbsp;🎉🎉 One Paper is accepted to ICRA 2025!
+- *2024.06*: &nbsp;🎉🎉 One Paper is accepted to IROS 2024!
 
 # 📝 Publications 
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+**\* denotes equal contribution.**
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">RA-L 2025</div><img src='images/tan2025ral.png' alt="TVG-SLAM" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+[TVG-SLAM: Robust Gaussian Splatting SLAM with Tri-view Geometric Constraints](https://arxiv.org/abs/2506.23207)
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+**Zhen Tan**, Xieyuanli Chen, L. Feng, Y. Ge, S. Zhi, J. Liu, Dewen Hu
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+[**Project**](https://github.com/MagicTZ/TVG-SLAM) 
+<!-- <strong><span class='show_paper_citations' data='YOUR_SCHOLAR_ID:PAPER_ID'></span></strong> -->
+- Proposed a tri-view geometric constraint to address the instability of 3D Gaussian Splatting in texture-less or repetitive regions.
+- Achieved tightly-coupled optimization of camera tracking and high-fidelity mapping, ensuring robustness in challenging indoor environments.
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IROS 2025</div><img src='images/liu2025iros.png' alt="Event Tracking" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Tracking Any Point with Frame-Event Fusion Network at High Frame Rate](https://arxiv.org/abs/2409.11953)
+
+J. Liu, B. Wang, **Zhen Tan**, J. Zhang, H. Shen, Dewen Hu
+
+[**PDF**](https://arxiv.org/abs/2409.11953) <strong><span class='show_paper_citations' data='YOUR_SCHOLAR_ID:PAPER_ID'></span></strong>
+- Explored multi-modal fusion of RGB frames and Event cameras for robust point tracking in high-dynamic scenarios.
+- Leveraged the high temporal resolution of event data to maintain tracking stability under rapid motion, providing a reliable perception front-end for dynamic robotic tasks.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICRA 2025</div><img src='images/niu2025icra.png' alt="HGSLoc" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[HGSLoc: 3DGS-based Heuristic Camera Pose Refinement](https://arxiv.org/abs/2409.10925)
+
+Z. Niu, **Zhen Tan**, J. Zhang, X. Yang, Dewen Hu
+
+[**PDF**](https://arxiv.org/abs/2409.10925) <strong><span class='show_paper_citations' data='YOUR_SCHOLAR_ID:PAPER_ID'></span></strong>
+- Developed a heuristic camera pose refinement framework leveraging 3D Gaussian Splatting as a dense map prior.
+- Significantly improved visual relocalization accuracy by aligning query images with rendered views, facilitating long-term autonomy in persistent environments.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IROS 2024</div><img src='images/tan2024iros.png' alt="TD-NeRF" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[TD-NeRF: Novel Truncated Depth Prior for Joint Camera Pose and Neural Radiance Field Optimization](https://arxiv.org/abs/2405.07027)
+
+**Zhen Tan**, Z. Zhou, Y. Ge, Z. Wang, Xieyuanli Chen, Dewen Hu
+
+[**PDF**](https://arxiv.org/abs/2405.07027) <strong><span class='show_paper_citations' data='YOUR_SCHOLAR_ID:PAPER_ID'></span></strong>
+- Address the dependency of NeRF on pre-computed COLMAP poses by introducing a truncated depth prior.
+- Enabled joint optimization of neural radiance fields and camera poses, allowing for high-quality reconstruction without accurate initial pose priors.
+</div>
+</div>
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2025*, IROS 2025 EvSLAM Challenge, Champion.
+- *2025*, Second-class scholarship for outstanding students
+- *2022*, Freshman Scholarship of NUDT, First Prize.
+- *2021*, Munich Innovation Challenge (Tech Innovation Award), 1st Place.
+- *2017*, Remote Sensing Star in Wuhan University, Top 10 Students.
 
 # 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2022.09 - Present*, Ph.D. in Control Science and Engineering, National University of Defense Technology (NUDT). 
+- *2018.09 - 2022.01*, M.Sc. in Geodesy and Geoinformation, Technical University of Munich (TUM) (QS Top 30).
+- *2014.09 - 2018.06*, B.Eng. in Photogrammetry and Remote Sensing, Wuhan University (WHU).
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+# 💬 Hobbies
+- **Sports**: Football (University Team Captain), Skiing, Basketball, Taekwondo.
+- **Arts**: Dancing, Movies.
+- **Travel**: Exploring different cultures.
 
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+
+<div style="text-align: center; margin-top: 20px;">
+  <span id="busuanzi_container_site_pv" style="display: inline;">
+    👀 Total Views: <span id="busuanzi_value_site_pv"></span>
+  </span>
+  &nbsp;&nbsp;
+  <span id="busuanzi_container_site_uv" style="display: inline;">
+    🧍 Visitors: <span id="busuanzi_value_site_uv"></span>
+  </span>
+</div>
+
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
