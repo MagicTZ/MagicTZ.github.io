@@ -21,7 +21,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Zhen Tan (Jack Wang)"
+  name             : "Zhen Tan (Paul)"
   avatar           : "images/ski.jpg"
   bio              : "PhD Candidate at NUDT; Researching Spatial Intelligence, World Models, and High-Fidelity 3D Vision (3DGS/NeRF)."
   location         : "Changsha, China"
